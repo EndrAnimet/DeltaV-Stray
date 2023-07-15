@@ -44,6 +44,22 @@
     Gold: 100
 
 - type: latheRecipe
+  id: PlasmaThrusterMachineCircuitboard
+  result: PlasmaThrusterMachineCircuitboard
+  completetime: 4
+  materials:
+    Steel: 100
+    Glass: 900
+
+- type: latheRecipe
+  id: CombuctionChamberMachineCircuitboard
+  result: CombuctionChamberMachineCircuitboard
+  completetime: 4
+  materials:
+    Steel: 200
+    Glass: 900
+
+- type: latheRecipe
   abstract: true
   parent: BaseCircuitboardRecipe
   id: BaseSilverCircuitboardRecipe

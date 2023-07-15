@@ -12,6 +12,7 @@ research-technology-industrial-engineering = Промышленная инжен
 research-technology-power-generation = Генерация электроэнергии
 research-technology-atmospheric-tech = Атмосферные технологии
 research-technology-shuttlecraft = Шаттлостроение
+research-technology-advanced-thrusters = Продвинутые двигатели
 research-technology-ripley-aplu = Рипли АВП
 research-technology-ripley-mkii = Рипли MK-II
 research-technology-clarke = Кларк

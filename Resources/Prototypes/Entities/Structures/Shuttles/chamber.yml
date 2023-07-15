@@ -1,0 +1,39 @@
+- type: entity
+  id: CombuctionChamber
+  name: Combuction Chamber
+  parent: [ BaseStructureDynamic, ConstructibleMachine ]
+  components:
+  - type: InteractionOutline
+  - type: Sprite
+    sprite: Structures/Shuttles/chamber.rsi
+    layers:
+    - state: base
+      map: ["enum.CombuctionVisualLayers.Base"]
+      visible: true
+    - state: burn
+      map: ["enum.CombuctionVisualLayers.Burning"]
+      shader: unshaded
+      visible: false
+  - type: Transform
+    anchored: true
+  - type: Physics
+    bodyType: Static
+  - type: Rotatable
+    rotateWhileAnchored: false
+  - type: AtmosDevice
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.CombuctionVisuals.Burning:
+        enum.CombuctionVisualLayers.Burning:
+          True: { visible: true }
+          False: { visible: false }
+  - type: NodeContainer
+    nodes:
+      inlet:
+        !type:PipeNode
+        nodeGroupID: Pipe
+        pipeDirection: North
+  - type: Combuction
+  - type: Machine
+    board: CombuctionChamberMachineCircuitboard

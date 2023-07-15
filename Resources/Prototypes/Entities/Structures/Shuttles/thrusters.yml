@@ -120,6 +120,31 @@
       bodyType: Dynamic
 
 - type: entity
+  id: PlasmaThruster
+  name: Plasma Thruster
+  parent: [ BaseThruster, ConstructibleMachine ]
+  components:
+  - type: Thruster
+    fuelType: 3
+    baseThrust: 500
+  - type: Machine
+    board: PlasmaThrusterMachineCircuitboard
+  - type: Sprite
+    sprite: Structures/Shuttles/plasmathruster.rsi
+    layers:
+    - state: base
+      map: ["enum.ThrusterVisualLayers.Base"]
+    - state: thrust
+      map: ["enum.ThrusterVisualLayers.ThrustOn"]
+      shader: unshaded
+      visible: false
+    - state: thrust_burn_unshaded
+      map: ["enum.ThrusterVisualLayers.ThrustingUnshaded"]
+      shader: unshaded
+      visible: false
+      offset: 0, 1
+
+- type: entity
   id: DebugThruster
   parent: BaseThruster
   suffix: DEBUG

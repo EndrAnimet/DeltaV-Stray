@@ -858,6 +858,17 @@
     prototype: Thruster
     stackRequirements:
       Capacitor: 4
+
+- type: entity
+  id: PlasmaThrusterMachineCircuitboard
+  parent: BaseMachineCircuitboard
+  name: Plasma thruster machine board
+  components:
+  - type: MachineBoard
+    prototype: PlasmaThruster
+    requirements:
+      Capacitor: 3
+    materialRequirements:
       Steel: 5
 
 - type: entity
@@ -871,6 +882,18 @@
       Manipulator: 2
       Capacitor: 1
       Glass: 2
+
+- type: entity
+  id: CombuctionChamberMachineCircuitboard
+  parent: BaseMachineCircuitboard
+  name: Combuction chamber machine board
+  components:
+  - type: MachineBoard
+    prototype: CombuctionChamber
+    requirements:
+      Capacitor: 3
+    materialRequirements:
+      Steel: 5
 
 - type: entity
   id: PortableGeneratorSuperPacmanMachineCircuitboard

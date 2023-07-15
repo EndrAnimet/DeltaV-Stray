@@ -585,6 +585,8 @@
       - PowerCageRechargerCircuitboard
       - EmitterCircuitboard
       - ThrusterMachineCircuitboard
+      - PlasmaThrusterMachineCircuitboard
+      - CombuctionChamberMachineCircuitboard
       - GyroscopeMachineCircuitboard
       - MiniGravityGeneratorCircuitboard
       - ShuttleGunKineticCircuitboard
