@@ -2,13 +2,18 @@
   id: Sneeze
   name: chat-emote-name-sneeze
   category: Vocal
+<<<<<<< HEAD
   chatMessages: ["chat-emote-msg-sneeze"]
+=======
+  chatMessages: [чихает] # Corvax-Localization
+>>>>>>> origin/contributors
 
 - type: emote
   id: Cough
   name: chat-emote-name-cough
   icon: Interface/Emotes/cough.png
   category: Vocal
+<<<<<<< HEAD
   whitelist:
     components:
     - Vocal
@@ -16,27 +21,46 @@
     components:
     - BorgChassis
   chatMessages: ["chat-emote-msg-cough"]
+=======
+  chatMessages: [кашляет] # Corvax-Localization
+>>>>>>> origin/contributors
   chatTriggers:
     - cough
     - coughs
+    # Corvax-Localization-Start
+    - кашель
+    - кашляет
+    # Corvax-Localization-End
 
 - type: emote
   id: CatMeow
   name: chat-emote-name-catmeow
   category: Vocal
+<<<<<<< HEAD
   chatMessages: ["chat-emote-msg-catmeow"]
+=======
+  chatMessages: [мяукает] # Corvax-Localization
+>>>>>>> origin/contributors
 
 - type: emote
   id: CatHisses
   name: chat-emote-name-cathisses
   category: Vocal
+<<<<<<< HEAD
   chatMessages: ["chat-emote-msg-cathisses"]
+=======
+  chatMessages: [шипит] # Corvax-Localization
+>>>>>>> origin/contributors
 
 - type: emote
   id: MonkeyScreeches
   name: chat-emote-name-monkeyscreeches
   category: Vocal
+<<<<<<< HEAD
   chatMessages: ["chat-emote-msg-monkeyscreeches"]
+=======
+  chatMessages: [визжит] # Corvax-Localization
+>>>>>>> origin/contributors
 
 - type: emote
   id: RobotBeep
@@ -49,6 +73,7 @@
   name: chat-emote-name-yawn
   icon: Interface/Emotes/yawn.png
   category: Vocal
+<<<<<<< HEAD
   whitelist:
     components:
     - Vocal
@@ -56,12 +81,23 @@
     components:
     - BorgChassis
   chatMessages: ["chat-emote-msg-yawn"]
+=======
+  chatMessages: [зевает] # Corvax-Localization
+>>>>>>> origin/contributors
   chatTriggers:
     - yawn
     - yawns
+    # Corvax-Localization-Start
+    - зевок
+    - зевает
+    # Corvax-Localization-End
 
 - type: emote
   id: Snore
   name: chat-emote-name-snore
   category: Vocal
+<<<<<<< HEAD
   chatMessages: ["chat-emote-msg-snore"]
+=======
+  chatMessages: [храпит] # Corvax-Localization
+>>>>>>> origin/contributors
