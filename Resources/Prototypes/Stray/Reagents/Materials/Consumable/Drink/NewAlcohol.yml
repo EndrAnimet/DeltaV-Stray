@@ -298,7 +298,7 @@
         amount: 0.2
       - !type:HealthChange
         damage:
-          types:
+          groups:
             Burn: 1
 
 - type: reagent
@@ -744,7 +744,7 @@
         amount: 0.06
       - !type:HealthChange
         damage:
-          types:
+          groups:
             Burn: -0.1
 
 #- type: reagent
@@ -876,7 +876,7 @@
         amount: 0.01
       - !type:HealthChange
         damage:
-          types:
+          groups:
             Burn: 2
 
 - type: reagent

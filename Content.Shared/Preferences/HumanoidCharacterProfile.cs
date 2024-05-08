@@ -433,9 +433,6 @@ namespace Content.Shared.Preferences
 
             if (configManager.GetCVar(CCVars.RestrictedNames))
             {
-<<<<<<< HEAD
-                name = RestrictedNameRegex.Replace(name, string.Empty);
-=======
                 name = Regex.Replace(name, @"[^А-Яа-яёЁ0-9' -]", string.Empty); // Corvax: Only cyrillic names
                 /*
                  * 0030-0039  Basic Latin: ASCII Digits
@@ -446,7 +443,6 @@ namespace Content.Shared.Preferences
                  * 00F8-00FF  Latin-1 Supplement: Letters III
                  * 0100-017F  Latin Extended A: European Latin
                  */
->>>>>>> origin/contributors
             }
 
             if (configManager.GetCVar(CCVars.ICNameCase))

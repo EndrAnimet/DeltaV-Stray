@@ -18,8 +18,6 @@ public sealed class MobsterAccentSystem : EntitySystem
     [Dependency] private readonly IRobustRandom _random = default!;
     [Dependency] private readonly ReplacementAccentSystem _replacement = default!;
 
-<<<<<<< HEAD
-=======
     private static readonly Dictionary<string, string> DirectReplacements = new()
     {
         // Corvax-Localization-Start
@@ -70,7 +68,6 @@ public sealed class MobsterAccentSystem : EntitySystem
         { "here", "'ere" }
     };
 
->>>>>>> origin/contributors
     public override void Initialize()
     {
         base.Initialize();

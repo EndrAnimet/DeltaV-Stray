@@ -156,18 +156,12 @@
     - cawing!
     - cawing?
     - cawed
-<<<<<<< HEAD
-    - cawed.
-    - cawed!
-    - cawed?
-=======
     - кар
     - кар!
     - кар.
     - каркает
     - каркает!
     - каркает.
->>>>>>> origin/contributors
 
 #Vulpkanin
 - type: emote
@@ -190,14 +184,9 @@
     - barked?
     - barking
     - barking.
-<<<<<<< HEAD
-    - barking!
-    - barking?
-=======
     - лает
     - гав
     - гавкает
->>>>>>> origin/contributors
 
 - type: emote
   id: Snarl
@@ -242,14 +231,9 @@
     - whined?
     - whining
     - whining.
-<<<<<<< HEAD
-    - whining!
-    - whining?
-=======
     - скулит
     - скулит!
     - скулит.
->>>>>>> origin/contributors
 
 - type: emote
   id: Howl
@@ -271,14 +255,9 @@
     - howling?
     - howled
     - howled.
-<<<<<<< HEAD
-    - howling!
-    - howling?
-=======
     - воет
     - воет!
     - воет.
->>>>>>> origin/contributors
 
 - type: emote
   id: Awoo

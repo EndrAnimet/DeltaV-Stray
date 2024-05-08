@@ -3,7 +3,6 @@
   id: Scream
   name: chat-emote-name-scream
   category: Vocal
-<<<<<<< HEAD
   icon: Interface/Actions/scream.png
   whitelist:
     components:
@@ -12,9 +11,6 @@
     components:
     - BorgChassis
   chatMessages: ["chat-emote-msg-scream"]
-=======
-  chatMessages: [кричит!] # Corvax-Localization
->>>>>>> origin/contributors
   chatTriggers:
     - scream
     - screams
@@ -56,7 +52,6 @@
   id: Laugh
   name: chat-emote-name-laugh
   category: Vocal
-<<<<<<< HEAD
   icon: Interface/Emotes/laugh.png
   whitelist:
     components:
@@ -65,9 +60,6 @@
     components:
     - BorgChassis
   chatMessages: ["chat-emote-msg-laugh"]
-=======
-  chatMessages: [смеётся.] # Corvax-Localization
->>>>>>> origin/contributors
   chatTriggers:
     - laugh
     - laughs
@@ -118,7 +110,6 @@
   id: Honk
   name: chat-emote-name-honk
   category: Vocal
-<<<<<<< HEAD
   icon: Interface/Emotes/honk.png
   whitelist:
     requireAll: true
@@ -126,9 +117,6 @@
     - Vocal
     - BorgChassis
   chatMessages: ["chat-emote-msg-honk"]
-=======
-  chatMessages: [издаёт хонк.] # Corvax-Localization
->>>>>>> origin/contributors
   chatTriggers:
     - honk
     - honk.
@@ -152,7 +140,6 @@
   id: Sigh
   name: chat-emote-name-sigh
   category: Vocal
-<<<<<<< HEAD
   icon: Interface/Emotes/sigh.png
   whitelist:
     components:
@@ -161,9 +148,6 @@
     components:
     - BorgChassis
   chatMessages: ["chat-emote-msg-sigh"]
-=======
-  chatMessages: [вздыхает.] # Corvax-Localization
->>>>>>> origin/contributors
   chatTriggers:
     - sigh
     - sighs
@@ -184,7 +168,6 @@
   id: Whistle
   name: chat-emote-name-whistle
   category: Vocal
-<<<<<<< HEAD
   icon: Interface/Emotes/whistle.png
   whitelist:
     components:
@@ -193,9 +176,6 @@
     components:
     - BorgChassis
   chatMessages: ["chat-emote-msg-whistle"]
-=======
-  chatMessages: [свистит.] # Corvax-Localization
->>>>>>> origin/contributors
   chatTriggers:
     - whistle
     - whistle.
@@ -219,7 +199,6 @@
   id: Crying
   name: chat-emote-name-crying
   category: Vocal
-<<<<<<< HEAD
   icon: Interface/Emotes/cry.png
   whitelist:
     components:
@@ -228,9 +207,6 @@
     components:
     - BorgChassis
   chatMessages: ["chat-emote-msg-crying"]
-=======
-  chatMessages: [плачет.] # Corvax-Localization
->>>>>>> origin/contributors
   chatTriggers:
     - cry
     - cry.
@@ -262,7 +238,6 @@
   id: Squish
   name: chat-emote-name-squish
   category: Vocal
-<<<<<<< HEAD
   available: false
   icon: Interface/Emotes/squish.png
   whitelist:
@@ -272,9 +247,6 @@
     components:
     - BorgChassis
   chatMessages: ["chat-emote-msg-squish"]
-=======
-  chatMessages: [хлюпает.] # Corvax-Localization
->>>>>>> origin/contributors
   chatTriggers:
     - squish
     - squish.
@@ -295,7 +267,6 @@
   id: Chitter
   name: chat-emote-name-chitter
   category: Vocal
-<<<<<<< HEAD
   available: false
   icon: Interface/Emotes/chitter.png
   whitelist:
@@ -305,9 +276,6 @@
     components:
     - BorgChassis
   chatMessages: ["chat-emote-msg-chitter"]
-=======
-  chatMessages: [стрекочет.] # Corvax-Localization
->>>>>>> origin/contributors
   chatTriggers:
    - chitter
    - chitter.
@@ -328,7 +296,6 @@
   id: Squeak
   name: chat-emote-name-squeak
   category: Vocal
-<<<<<<< HEAD
   available: false
   icon: Interface/Emotes/squeak.png
   whitelist:
@@ -338,9 +305,6 @@
     components:
     - BorgChassis
   chatMessages: ["chat-emote-msg-squeak"]
-=======
-  chatMessages: [пищит.] # Corvax-Localization
->>>>>>> origin/contributors
   chatTriggers:
    - squeak
    - squeak.
@@ -361,7 +325,6 @@
   id: Click
   name: chat-emote-name-click
   category: Vocal
-<<<<<<< HEAD
   available: false
   icon: Interface/Emotes/click.png
   whitelist:
@@ -371,9 +334,6 @@
     components:
     - BorgChassis
   chatMessages: ["chat-emote-msg-click"]
-=======
-  chatMessages: [клацает.] # Corvax-Localization
->>>>>>> origin/contributors
   chatTriggers:
    - click
    - click.
@@ -395,7 +355,6 @@
   id: Clap
   name: chat-emote-name-clap
   category: Hands
-<<<<<<< HEAD
   icon: Interface/Emotes/clap.png
   whitelist:
     components:
@@ -404,9 +363,6 @@
     components:
     - BorgChassis
   chatMessages: ["chat-emote-msg-clap"]
-=======
-  chatMessages: [хлопает!] # Corvax-Localization
->>>>>>> origin/contributors
   chatTriggers:
     - clap
     - claps
@@ -434,7 +390,6 @@
   id: Snap
   name: chat-emote-name-snap
   category: Hands
-<<<<<<< HEAD
   icon: Interface/Emotes/snap.png
   whitelist:
     components:
@@ -443,9 +398,6 @@
     components:
     - BorgChassis
   chatMessages: ["chat-emote-msg-snap"] # snaps <{THEIR($ent)}> fingers?
-=======
-  chatMessages: [щёлкает пальцами.] # Corvax-Localization
->>>>>>> origin/contributors
   chatTriggers:
     - snap
     - snaps
@@ -487,7 +439,6 @@
   id: Salute
   name: chat-emote-name-salute
   category: Hands
-<<<<<<< HEAD
   icon: Interface/Emotes/salute.png
   whitelist:
     components:
@@ -496,9 +447,6 @@
     components:
     - BorgChassis
   chatMessages: ["chat-emote-msg-salute"]
-=======
-  chatMessages: [салютует.] # Corvax-Localization
->>>>>>> origin/contributors
   chatTriggers:
     - salute
     - salute.
@@ -542,7 +490,6 @@
   id: Buzz
   name: chat-emote-name-buzz
   category: Vocal
-<<<<<<< HEAD
   icon: Interface/Emotes/buzz.png
   whitelist:
     requireAll: true
@@ -550,9 +497,6 @@
     - BorgChassis
     - Vocal
   chatMessages: ["chat-emote-msg-buzz"]
-=======
-  chatMessages: [жужжит!] # Corvax-Localization
->>>>>>> origin/contributors
   chatTriggers:
     - buzzing
     - buzzing!
@@ -582,27 +526,19 @@
   id: Weh
   name: chat-emote-name-weh
   category: Vocal
-<<<<<<< HEAD
   icon: Interface/Emotes/weh.png
   chatMessages: [Wehs!]
-=======
-  chatMessages: [издаёт вех!]
->>>>>>> origin/contributors
 
 - type: emote
   id: Chirp
   name: chat-emote-name-chirp
   category: Vocal
-<<<<<<< HEAD
   icon: Interface/Emotes/chirp.png
   whitelist:
     requireAll: true
     components:
     - Nymph
   chatMessages: ["chat-emote-msg-chirp"]
-=======
-  chatMessages: [чирикает!]
->>>>>>> origin/contributors
   chatTriggers:
     - chirp
     - chirp!
@@ -627,7 +563,6 @@
   id: Beep
   name: chat-emote-name-beep
   category: Vocal
-<<<<<<< HEAD
   icon: Interface/Emotes/beep.png
   whitelist:
     requireAll: true
@@ -635,9 +570,6 @@
     - BorgChassis
     - Vocal
   chatMessages: ["chat-emote-msg-beep"]
-=======
-  chatMessages: [делает бип.] # Corvax-Localization
->>>>>>> origin/contributors
   chatTriggers:
     - beep
     - beep!
@@ -661,7 +593,6 @@
   id: Chime
   name: chat-emote-name-chime
   category: Vocal
-<<<<<<< HEAD
   icon: Interface/Emotes/chime.png
   whitelist:
     requireAll: true
@@ -669,9 +600,6 @@
     - BorgChassis
     - Vocal
   chatMessages: ["chat-emote-msg-chime"]
-=======
-  chatMessages: [издаёт трель.] # Corvax-Localization
->>>>>>> origin/contributors
   chatTriggers:
     - chime
     - chime.
@@ -695,7 +623,6 @@
   id: Buzz-Two
   name: chat-emote-name-buzztwo
   category: Vocal
-<<<<<<< HEAD
   icon: Interface/Emotes/buzztwo.png
   whitelist:
     requireAll: true
@@ -703,9 +630,6 @@
     - BorgChassis
     - Vocal
   chatMessages: ["chat-emote-msg-buzzestwo"]
-=======
-  chatMessages: [издаёт бип-буп.] # Corvax-Localization
->>>>>>> origin/contributors
   chatTriggers:
     - buzztwice
     - buzztwice.
@@ -762,7 +686,6 @@
   id: Ping
   name: chat-emote-name-ping
   category: Vocal
-<<<<<<< HEAD
   icon: Interface/Emotes/ping.png
   whitelist:
     requireAll: true
@@ -770,9 +693,6 @@
     - BorgChassis
     - Vocal
   chatMessages: ["chat-emote-msg-ping"]
-=======
-  chatMessages: [издаёт пинг.] # Corvax-Localization
->>>>>>> origin/contributors
   chatTriggers:
     - ping
     - ping.
