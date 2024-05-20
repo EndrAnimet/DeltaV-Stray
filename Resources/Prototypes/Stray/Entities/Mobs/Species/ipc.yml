@@ -96,7 +96,7 @@
           Heat: -0.25
           Asphyxiation: -10
     - type: Repairable
-      fuelcost: 5 # cause most of the fuel is used how long its turned on for
+      fuelCost: 5 # cause most of the fuel is used how long its turned on for
       doAfterDelay: 7
       damage:
         types:
