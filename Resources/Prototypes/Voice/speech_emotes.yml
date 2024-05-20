@@ -711,13 +711,3 @@
     - пинг.
     - пинг!
     # Corvax-Localization-End
-
-- type: emote
-  id: Whirr
-  category: Vocal
-  chatMessages: [whirrs]
-  chatTriggers:
-    - whirr
-    - whirrs
-    - whirrs.
-    - whirrs!
