@@ -69,6 +69,11 @@
     - type: Icon
       sprite: Stray/Mobs/Species/IPC/parts.rsi
       state: full
+    - type: Sprite
+      sprite: SimpleStation14/Mobs/Species/IPC/parts.rsi
+      state: full
+      noRot: true
+      drawdepth: Mobs
     # Damage and speed
     - type: Bloodstream
       bloodReagent: Oil
