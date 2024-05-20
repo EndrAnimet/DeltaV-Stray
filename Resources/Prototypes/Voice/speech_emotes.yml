@@ -713,20 +713,6 @@
     # Corvax-Localization-End
 
 - type: emote
-<<<<<<< latejoin
-=======
-  id: Boop
-  category: Vocal
-  chatMessages: [boops]
-  chatTriggers:
-    - boop
-    - boops
-    - boops.
-    - boops!
-    - буп
-
-- type: emote
->>>>>>> master
   id: Whirr
   category: Vocal
   chatMessages: [whirrs]
