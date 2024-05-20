@@ -67,7 +67,7 @@
       damageContainer: IPC
       damageModifierSet: Metallic
     - type: Sprite
-      sprite: Stray/Mobs/Species/IPC/parts.rsi
+      sprite: Stray/Mobs/Species/IPCs/parts.rsi
       state: full
     # Damage and speed
     - type: Bloodstream
