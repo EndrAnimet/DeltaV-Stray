@@ -2,7 +2,7 @@ name: RSI Validator
 
 on:
   push:
-    branches: [ staging, trying, cursed ]
+    branches: [ staging, trying, cursed, tests-with-reagents ]
   merge_group:
   pull_request:
     paths:

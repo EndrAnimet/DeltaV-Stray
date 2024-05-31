@@ -2,7 +2,7 @@
 
 on:
   push:
-    branches: [ cursed ]
+    branches: [ cursed, tests-with-reagents ]
   pull_request:
     types: [ opened, reopened, synchronize, ready_for_review ]
 
