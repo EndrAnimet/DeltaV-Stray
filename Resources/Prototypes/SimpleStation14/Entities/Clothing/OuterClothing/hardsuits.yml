@@ -37,6 +37,11 @@
     sprite: SimpleStation14/Clothing/OuterClothing/Hardsuits/hopsuit.rsi
   - type: Clothing
     sprite: SimpleStation14/Clothing/OuterClothing/Hardsuits/hopsuit.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: equipped-OUTERCLOTHING
+      - state: unshaded
+        shader: addative
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 4500

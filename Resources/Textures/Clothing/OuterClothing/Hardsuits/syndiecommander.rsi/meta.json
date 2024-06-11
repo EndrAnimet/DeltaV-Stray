@@ -25,6 +25,10 @@
         {
             "name": "equipped-OUTERCLOTHING-harpy",
             "directions": 4
+        },
+        {
+            "name": "unshaded",
+            "directions": 4
         }
     ]
 }

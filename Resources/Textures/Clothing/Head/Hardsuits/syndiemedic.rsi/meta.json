@@ -37,6 +37,10 @@
     {
       "name": "on-inhand-right",
       "directions": 4
+    },
+    {
+      "name": "unshaded",
+      "directions": 4
     }
   ]
 }

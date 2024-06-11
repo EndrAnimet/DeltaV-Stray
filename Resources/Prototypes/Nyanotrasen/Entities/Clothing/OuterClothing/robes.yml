@@ -21,5 +21,10 @@
     sprite: Nyanotrasen/Clothing/OuterClothing/Robes/techpriest.rsi
   - type: Clothing
     sprite: Nyanotrasen/Clothing/OuterClothing/Robes/techpriest.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: equipped-OUTERCLOTHING
+      - state: unshaded
+        shader: addative
   - type: TemperatureProtection
     coefficient: 0.2

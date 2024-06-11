@@ -41,6 +41,8 @@
     clothingVisuals:
       head:
       - state: equipped-head
+      - state: unshaded
+        shader: addative
   - type: PointLight
     color: "#ff2034"
   - type: PressureProtection

@@ -58,6 +58,13 @@
   path: "/Textures/Shaders/drunk.swsl"
 
 - type: shader
+  id: Bloom
+  blend_mode: add
+  light_mode: unshaded
+  kind: source
+  path: "/Textures/Shaders/bloom.swsl"
+
+- type: shader
   id: Texture
   kind: source
   path: "/Textures/Shaders/texture.swsl"

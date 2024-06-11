@@ -52,7 +52,7 @@
       head:
       - state: equipped-head
       - state: equipped-head-unshaded
-        shader: unshaded
+        shader: addative
   - type: PointLight
     color: "#adffe6"
   - type: PressureProtection
@@ -95,7 +95,7 @@
       shader: unshaded
     - state: light-overlay
       visible: false
-      shader: unshaded
+      shader: addative
       map: [ "light" ]
   - type: HandheldLight
     addPrefix: false
@@ -103,13 +103,17 @@
     clothingVisuals:
       head:
       - state: equipped-head-light
-        shader: unshaded
+        shader: addative
   - type: Clothing
     clothingVisuals:
       head:
       - state: equipped-head
       - state: equipped-head-unshaded
-        shader: unshaded
+        shader: addative
+      - state: equipped-head-light
+        visible: false
+        shader: addative
+        map: [ "light" ]
   - type: PressureProtection
     highPressureMultiplier: 0.72
     lowPressureMultiplier: 1000
@@ -126,6 +130,11 @@
     sprite: Clothing/Head/Hardsuits/salvage.rsi
   - type: Clothing
     sprite: Clothing/Head/Hardsuits/salvage.rsi
+    clothingVisuals:
+      head:
+      - state: off-equipped-HELMET
+      - state: unshaded
+        shader: addative
   - type: PressureProtection
     highPressureMultiplier: 0.525
     lowPressureMultiplier: 1000
@@ -145,6 +154,11 @@
     sprite: Clothing/Head/Hardsuits/maxim.rsi
   - type: Clothing
     sprite: Clothing/Head/Hardsuits/maxim.rsi
+    clothingVisuals:
+      head:
+      - state: equipped-HELMET
+      - state: unshaded
+        shader: addative
   - type: PressureProtection
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
@@ -193,6 +207,11 @@
     sprite: Clothing/Head/Hardsuits/brigmedic.rsi
   - type: Clothing
     sprite: Clothing/Head/Hardsuits/brigmedic.rsi
+    clothingVisuals:
+      head:
+      - state: off-equipped-HELMET
+      - state: unshaded
+        shader: addative
   - type: PointLight
     color: "#00FFFF"
   - type: Armor
@@ -245,6 +264,11 @@
     sprite: Clothing/Head/Hardsuits/capspace.rsi
   - type: Clothing
     sprite: Clothing/Head/Hardsuits/capspace.rsi
+    clothingVisuals:
+      head:
+      - state: off-equipped-HELMET
+      - state: unshaded
+        shader: addative
   - type: PressureProtection
     highPressureMultiplier: 0.3
     lowPressureMultiplier: 1000
@@ -261,6 +285,11 @@
     sprite: Clothing/Head/Hardsuits/engineering-white.rsi
   - type: Clothing
     sprite: Clothing/Head/Hardsuits/engineering-white.rsi
+    clothingVisuals:
+      head:
+      - state: off-equipped-HELMET
+      - state: unshaded
+        shader: addative
   - type: PointLight
     color: "#daffad"
   - type: PressureProtection
@@ -297,6 +326,11 @@
     sprite: Clothing/Head/Hardsuits/rd.rsi
   - type: Clothing
     sprite: Clothing/Head/Hardsuits/rd.rsi
+    clothingVisuals:
+      head:
+      - state: off-equipped-HELMET
+      - state: unshaded
+        shader: addative
   - type: PointLight
     color: "#d6adff"
   - type: PressureProtection
@@ -340,6 +374,11 @@
     sprite: Clothing/Head/Hardsuits/luxury.rsi
   - type: Clothing
     sprite: Clothing/Head/Hardsuits/luxury.rsi
+    clothingVisuals:
+      head:
+      - state: off-equipped-HELMET
+      - state: unshaded
+        shader: addative
   - type: PressureProtection
     highPressureMultiplier: 0.525
     lowPressureMultiplier: 1000
@@ -360,6 +399,11 @@
     sprite: Clothing/Head/Hardsuits/syndicate.rsi
   - type: Clothing
     sprite: Clothing/Head/Hardsuits/syndicate.rsi
+    clothingVisuals:
+      head:
+      - state: off-equipped-HELMET
+      - state: unshaded
+        shader: addative
   - type: PointLight
     color: green
   - type: PressureProtection
@@ -385,6 +429,11 @@
     sprite: Clothing/Head/Hardsuits/syndiemedic.rsi
   - type: Clothing
     sprite: Clothing/Head/Hardsuits/syndiemedic.rsi
+    clothingVisuals:
+      head:
+      - state: off-equipped-HELMET
+      - state: unshaded
+        shader: addative
   - type: PointLight
     color: green
   - type: PressureProtection
@@ -410,6 +459,11 @@
     sprite: Clothing/Head/Hardsuits/syndieelite.rsi
   - type: Clothing
     sprite: Clothing/Head/Hardsuits/syndieelite.rsi
+    clothingVisuals:
+      head:
+      - state: off-equipped-HELMET
+      - state: unshaded
+        shader: addative
   - type: PointLight
     color: red
   - type: PressureProtection
@@ -439,6 +493,11 @@
     sprite: Clothing/Head/Hardsuits/syndiecommander.rsi
   - type: Clothing
     sprite: Clothing/Head/Hardsuits/syndiecommander.rsi
+    clothingVisuals:
+      head:
+      - state: off-equipped-HELMET
+      - state: unshaded
+        shader: addative
   - type: PointLight
     color: green
   - type: PressureProtection
@@ -464,6 +523,11 @@
     sprite: Clothing/Head/Hardsuits/cybersun.rsi
   - type: Clothing
     sprite: Clothing/Head/Hardsuits/cybersun.rsi
+    clothingVisuals:
+      head:
+      - state: off-equipped-HELMET
+      - state: off-equipped-HELMET
+        shader: addative
   - type: PointLight
     color: "#8B0000"
   - type: PressureProtection
@@ -489,6 +553,11 @@
     sprite: Clothing/Head/Hardsuits/wizard.rsi
   - type: Clothing
     sprite: Clothing/Head/Hardsuits/wizard.rsi
+    clothingVisuals:
+      head:
+      - state: off-equipped-HELMET
+      - state: unshaded
+        shader: addative
   - type: PointLight
     color: "#ffadfb"
   - type: PressureProtection
@@ -548,6 +617,11 @@
     sprite: Clothing/Head/Hardsuits/piratecaptainhelm.rsi
   - type: Clothing
     sprite: Clothing/Head/Hardsuits/piratecaptainhelm.rsi
+    clothingVisuals:
+      head:
+      - state: equipped-HELMET
+      - state: unshaded
+        shader: addative
   - type: PressureProtection
     highPressureMultiplier: 0.3
     lowPressureMultiplier: 1000
@@ -565,6 +639,11 @@
     sprite: Clothing/Head/Hardsuits/ERThelmets/ertleader.rsi
   - type: Clothing
     sprite: Clothing/Head/Hardsuits/ERThelmets/ertleader.rsi
+    clothingVisuals:
+      head:
+      - state: off-equipped-HELMET
+      - state: unshaded
+        shader: addative
   - type: PointLight
     color: "#addbff"
   - type: Armor
@@ -602,6 +681,11 @@
     sprite: Clothing/Head/Hardsuits/ERThelmets/ertengineer.rsi
   - type: Clothing
     sprite: Clothing/Head/Hardsuits/ERThelmets/ertengineer.rsi
+    clothingVisuals:
+      head:
+      - state: off-equipped-HELMET
+      - state: unshaded
+        shader: addative
   - type: PointLight
     color: "#f4ffad"
   - type: Armor
@@ -624,6 +708,11 @@
     sprite: Clothing/Head/Hardsuits/ERThelmets/ertmedical.rsi
   - type: Clothing
     sprite: Clothing/Head/Hardsuits/ERThelmets/ertmedical.rsi
+    clothingVisuals:
+      head:
+      - state: off-equipped-HELMET
+      - state: unshaded
+        shader: addative
   - type: PointLight
     color: "#adffec"
 
@@ -639,6 +728,11 @@
     sprite: Clothing/Head/Hardsuits/ERThelmets/ertsecurity.rsi
   - type: Clothing
     sprite: Clothing/Head/Hardsuits/ERThelmets/ertsecurity.rsi
+    clothingVisuals:
+      head:
+      - state: off-equipped-HELMET
+      - state: unshaded
+        shader: addative
   - type: PointLight
     color: "#ffadc6"
   - type: Armor
@@ -661,6 +755,11 @@
     sprite: Clothing/Head/Hardsuits/ERThelmets/ertjanitor.rsi
   - type: Clothing
     sprite: Clothing/Head/Hardsuits/ERThelmets/ertjanitor.rsi
+    clothingVisuals:
+      head:
+      - state: off-equipped-HELMET
+      - state: unshaded
+        shader: addative
   - type: PointLight
     color: "#cbadff"
 
@@ -677,17 +776,17 @@
     layers:
     - state: icon
     - state: icon-unshaded
-      shader: unshaded
+      shader: addative
     - state: light-overlay
       visible: false
-      shader: unshaded
+      shader: addative
       map: [ "light" ]
   - type: Clothing
     clothingVisuals:
       head:
       - state: equipped-head
       - state: equipped-head-unshaded
-        shader: unshaded
+        shader: addative
   - type: PointLight
     color: orange
   - type: PressureProtection
@@ -715,6 +814,11 @@
     sprite: Clothing/Head/Hardsuits/deathsquad.rsi
   - type: Clothing
     sprite: Clothing/Head/Hardsuits/deathsquad.rsi
+    clothingVisuals:
+      head:
+      - state: off-equipped-HELMET
+      - state: unshaded
+        shader: addative
   - type: PointLight
     color: "#addbff"
   - type: PressureProtection

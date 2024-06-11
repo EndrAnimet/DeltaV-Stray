@@ -80,6 +80,11 @@
     sprite: Clothing/OuterClothing/Suits/atmos_firesuit.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Suits/atmos_firesuit.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: equipped-OUTERCLOTHING
+      - state: unshaded
+        shader: addative
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000

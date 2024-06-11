@@ -8,6 +8,11 @@
     sprite: Corvax/Clothing/OuterClothing/hardsuits/cburncommander.rsi
   - type: Clothing
     sprite: Corvax/Clothing/OuterClothing/hardsuits/cburncommander.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: equipped-OUTERCLOTHING
+      - state: unshaded
+        shader: addative
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
@@ -15,7 +20,7 @@
     walkModifier: 1.0
     sprintModifier: 1.0
   - type: TemperatureProtection
-    coefficient: 0.001    
+    coefficient: 0.001
   - type: Armor
     modifiers:
       coefficients:

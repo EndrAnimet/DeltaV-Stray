@@ -44,6 +44,10 @@
     {
       "name": "off-equipped-HELMET-shadowkin",
       "directions": 4
+    },
+    {
+      "name": "unshaded",
+      "directions": 4
     }
   ]
 }

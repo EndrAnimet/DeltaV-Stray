@@ -20,6 +20,10 @@
     {
       "name": "on-equipped-HELMET",
       "directions": 4
+    },
+    {
+      "name": "unshaded",
+      "directions": 4
     }
   ]
 }

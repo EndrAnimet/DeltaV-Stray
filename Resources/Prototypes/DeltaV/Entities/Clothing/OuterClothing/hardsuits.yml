@@ -9,6 +9,11 @@
     sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/standard.rsi
   - type: Clothing
     sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/standard.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: equipped-OUTERCLOTHING
+      - state: unshaded
+        shader: addative
   - type: PressureProtection
     highPressureMultiplier: 0.50
     lowPressureMultiplier: 1000
@@ -40,6 +45,11 @@
     sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/officer.rsi
   - type: Clothing
     sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/officer.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: equipped-OUTERCLOTHING
+      - state: unshaded
+        shader: addative
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitCombatOfficer
 
@@ -54,6 +64,11 @@
     sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/medical.rsi
   - type: Clothing
     sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/medical.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: equipped-OUTERCLOTHING
+      - state: unshaded
+        shader: addative
   - type: PressureProtection # Less protective from high pressure than a standard hardsuit due to less plating.
     highPressureMultiplier: 0.60
     lowPressureMultiplier: 1000
@@ -85,6 +100,11 @@
     sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/corpsman.rsi
   - type: Clothing
     sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/corpsman.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: equipped-OUTERCLOTHING
+      - state: unshaded
+        shader: addative
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitCombatCorpsman
 
@@ -99,6 +119,11 @@
     sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/riot.rsi
   - type: Clothing
     sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/riot.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: equipped-OUTERCLOTHING
+      - state: unshaded
+        shader: addative
   - type: PressureProtection
     highPressureMultiplier: 0.45
     lowPressureMultiplier: 1000
@@ -130,6 +155,11 @@
     sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/warden.rsi
   - type: Clothing
     sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/warden.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: equipped-OUTERCLOTHING
+      - state: unshaded
+        shader: addative
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitCombatWarden
 
@@ -144,6 +174,11 @@
     sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/advanced.rsi
   - type: Clothing
     sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/advanced.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: equipped-OUTERCLOTHING
+      - state: unshaded
+        shader: addative
   - type: PressureProtection
     highPressureMultiplier: 0.40
     lowPressureMultiplier: 1000
@@ -175,5 +210,10 @@
     sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/hos.rsi
   - type: Clothing
     sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/hos.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: equipped-OUTERCLOTHING
+      - state: unshaded
+        shader: addative
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitCombatHoS

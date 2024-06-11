@@ -10,6 +10,11 @@
     sprite: DeltaV/Clothing/Head/Hardsuits/Combat/standard.rsi
   - type: Clothing
     sprite: DeltaV/Clothing/Head/Hardsuits/Combat/standard.rsi
+    clothingVisuals:
+      head:
+      - state: off-equipped-HELMET
+      - state: unshaded
+        shader: addative
   - type: PointLight
     color: "#ffeead"
   - type: PressureProtection
@@ -45,6 +50,11 @@
     sprite: DeltaV/Clothing/Head/Hardsuits/Combat/medical.rsi
   - type: Clothing
     sprite: DeltaV/Clothing/Head/Hardsuits/Combat/medical.rsi
+    clothingVisuals:
+      head:
+      - state: off-equipped-HELMET
+      - state: unshaded
+        shader: addative
   - type: PointLight
     color: "#00FFFF"
   - type: PressureProtection
@@ -67,6 +77,11 @@
     sprite: DeltaV/Clothing/Head/Hardsuits/Combat/corpsman.rsi
   - type: Clothing
     sprite: DeltaV/Clothing/Head/Hardsuits/Combat/corpsman.rsi
+    clothingVisuals:
+      head:
+      - state: off-equipped-HELMET
+      - state: unshaded
+        shader: addative
 
 # Riot Combat Hardsuits
 - type: entity
@@ -80,6 +95,11 @@
     sprite: DeltaV/Clothing/Head/Hardsuits/Combat/riot.rsi
   - type: Clothing
     sprite: DeltaV/Clothing/Head/Hardsuits/Combat/riot.rsi
+    clothingVisuals:
+      head:
+      - state: off-equipped-HELMET
+      - state: unshaded
+        shader: addative
   - type: PointLight
     color: "#ffeead"
   - type: PressureProtection
@@ -102,6 +122,11 @@
     sprite: DeltaV/Clothing/Head/Hardsuits/Combat/warden.rsi
   - type: Clothing
     sprite: DeltaV/Clothing/Head/Hardsuits/Combat/warden.rsi
+    clothingVisuals:
+      head:
+      - state: off-equipped-HELMET
+      - state: unshaded
+        shader: addative
 
 # Advanced Combat Hardsuits
 - type: entity

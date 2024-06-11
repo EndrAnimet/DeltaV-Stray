@@ -20,6 +20,10 @@
         {
             "name": "equipped-head-light",
             "directions": 4
+        },
+        {
+            "name": "unshaded",
+            "directions": 4
         }
     ]
 }

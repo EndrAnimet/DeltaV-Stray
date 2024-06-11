@@ -139,6 +139,11 @@
     sprite: Clothing/Head/Helmets/cult.rsi
   - type: Clothing
     sprite: Clothing/Head/Helmets/cult.rsi
+    clothingVisuals:
+      head:
+      - state: off-equipped-HELMET
+      - state: unshaded
+        shader: addative
   - type: IngestionBlocker
   - type: Armor
     modifiers:
@@ -295,6 +300,11 @@
     sprite: Clothing/Head/Helmets/ert_leader.rsi
   - type: Clothing
     sprite: Clothing/Head/Helmets/ert_leader.rsi
+    clothingVisuals:
+      head:
+      - state: off-equipped-HELMET
+      - state: unshaded
+        shader: addative
 
 #ERT Security Helmet
 - type: entity
