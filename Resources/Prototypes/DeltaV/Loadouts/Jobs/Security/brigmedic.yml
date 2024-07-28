@@ -54,7 +54,7 @@
   id: SunglassesMed
   equipment:
     eyes: ClothingEyesGlassesMed
-
+    
 # Jumpsuit
 - type: loadout
   id: BrigMedicJumpsuit

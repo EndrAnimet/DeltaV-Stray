@@ -159,3 +159,12 @@
     path: /Audio/Voice/Talk/pai_ask.ogg
   exclaimSound:
     path: /Audio/Voice/Talk/pai_exclaim.ogg
+
+- type: speechSounds
+  id: Cluck
+  saySound:
+    path: /Audio/Animals/chicken_cluck_happy.ogg
+  askSound:
+    path: /Audio/Animals/chicken_cluck_happy.ogg
+  exclaimSound:
+    path: /Audio/Animals/chicken_cluck_happy.ogg
