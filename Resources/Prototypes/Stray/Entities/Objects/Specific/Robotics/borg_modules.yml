@@ -24,7 +24,7 @@
     - BorgModuleSecurity
   - type: Sprite
     sprite: DeltaV/Objects/Specific/Robotics/borgmodule.rsi
-    
+
 # Security Modules
 
 - type: entity
@@ -55,9 +55,9 @@
     items:
     - StunbatonSelfCharging
     - FlashRecharging
-    - HandcuffsLingering
+    - BorgHypoPax
     - Truncheon
-    
+
 - type: entity
   id: BorgModuleSecurityControl # Peacekeeper Set, Available on Round Start
   parent: [ BaseBorgModuleSecurity, BaseProviderBorgModule ]

@@ -682,8 +682,6 @@
     - BorgModuleSecurityDetain
     - BorgModuleSecurityControl
     - BorgModuleSecurityChase
-  # DeltaV End
-  # Begin DeltaV additions
     - JetpackVoid
   # DeltaV End
   - type: MaterialStorage

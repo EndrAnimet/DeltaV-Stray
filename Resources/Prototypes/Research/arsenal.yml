@@ -115,8 +115,6 @@
   - BorgModuleSecurityControl # DeltaV SecBorg Research
   - BorgModuleSecurityDetain # DeltaV SecBorg Research
 
-# Tier 2
-
 - type: technology
   id: ExplosiveTechnology
   name: research-technology-explosive-technology
