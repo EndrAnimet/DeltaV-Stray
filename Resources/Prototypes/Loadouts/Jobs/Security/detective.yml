@@ -17,15 +17,6 @@
   equipment:
     head: ClothingHeadHatFedoraGrey
 
-- type: loadout
-  id: DetectiveFedoraGrey
-  equipment: DetectiveFedoraGrey
-
-- type: startingGear
-  id: DetectiveFedoraGrey
-  equipment:
-    head: ClothingHeadHatFedoraGrey
-
 # Neck
 - type: loadout
   id: DetectiveTie
@@ -128,12 +119,3 @@
   id: DetectiveStasecCoat
   equipment:
     outerClothing: ClothingOuterVestDetective
-
-- type: loadout
-  id: DetectiveCoat
-  equipment: DetectiveCoat
-
-- type: startingGear
-  id: DetectiveCoat
-  equipment:
-    outerClothing: ClothingOuterCoatDetective
