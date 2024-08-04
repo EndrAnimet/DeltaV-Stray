@@ -55,7 +55,7 @@ namespace Content.Server.Connection
         [Dependency] private readonly IGameTiming _gameTiming = default!;
         [Dependency] private readonly ILogManager _logManager = default!;
         [Dependency] private readonly IChatManager _chatManager = default!;
-
+        
         private readonly Dictionary<NetUserId, TimeSpan> _temporaryBypasses = [];
         private ISawmill _sawmill = default!;
 
@@ -271,6 +271,8 @@ namespace Content.Server.Connection
             {
                 return (ConnectionDenyReason.Full, Loc.GetString("soft-player-cap-full"), null);
             }
+
+
 
             // DeltaV - Replace existing softwhitelist implementation
             if (false)// _cfg.GetCVar(CCVars.WhitelistEnabled))
