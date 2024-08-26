@@ -104,3 +104,9 @@
   id: Cataracts
   kind: source
   path: "/Textures/Shaders/cataracts.swsl"
+
+#Stray
+- type: shader
+  id: Bloom
+  kind: source
+  path: "/Textures/Shaders/bloom.swsl"
