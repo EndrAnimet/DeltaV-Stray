@@ -29,6 +29,7 @@ public sealed class BloomOverlay : Overlay
 
     public BloomOverlay()
     {
+        ZIndex = 9;
         IoCManager.InjectDependencies(this);
         _BloomShader = _prototypeManager.Index<ShaderPrototype>("Bloom").InstanceUnique();
     }
