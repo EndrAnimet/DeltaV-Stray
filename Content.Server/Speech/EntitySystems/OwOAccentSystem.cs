@@ -7,9 +7,11 @@ namespace Content.Server.Speech.EntitySystems
     {
         [Dependency] private readonly IRobustRandom _random = default!;
 
-        private static readonly IReadOnlyList<string> Faces = new List<string>{
-            " (•`ω´•)", " ;;w;;", " owo", " UwU", " >w<", " ^w^"
-        }.AsReadOnly();
+        // private static readonly IReadOnlyList<string> Faces = new List<string>{
+        //     " (•`ω´•)", " ;;w;;", " owo", " UwU", " >w<", " ^w^"
+        // }.AsReadOnly();
+
+        // i hate this thing
 
         private static readonly IReadOnlyDictionary<string, string> SpecialWords = new Dictionary<string, string>()
         {
@@ -29,7 +31,7 @@ namespace Content.Server.Speech.EntitySystems
                 message = message.Replace(word, repl);
             }
 
-            return message.Replace("!", _random.Pick(Faces))
+            return message.Replace("!", "!")
                 // Corvax-Localization-Start
                 .Replace("р", "в").Replace("Р", "В")
                 .Replace("л", "в").Replace("Л", "В")
