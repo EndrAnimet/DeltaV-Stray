@@ -727,6 +727,8 @@
   # DeltaV Start
     - BorgModuleSecurityChase
     - JetpackVoid
+    - MechEquipmentHonkerBananaMortar
+    - MechEquipmentHonkerMousetrapMortar
   - type: EmagLatheRecipes
     emagDynamicRecipes:
     - ClothingOuterHardsuitJuggernautReverseEngineered
