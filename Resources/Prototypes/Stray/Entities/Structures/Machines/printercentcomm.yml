@@ -6,7 +6,7 @@
   suffix: Centcomm
   components:
   - type: Sprite
-    sprite: Stray/Structures/Machines/printerсс.rsi
+    sprite: Corvax/Structures/Machines/printer.rsi
     snapCardinals: true
     layers:
     - state: icon
