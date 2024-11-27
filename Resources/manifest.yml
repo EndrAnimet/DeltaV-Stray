@@ -1,5 +1,5 @@
-﻿defaultWindowTitle: Delta-v
-windowIconSet: /Textures/Logo/icon
-splashLogo: /Textures/Logo/splashlogo.png
+﻿defaultWindowTitle: NES / Not Endless Station
+windowIconSet: /Textures/Logo/icon #NES14-Changes
+splashLogo: /Textures/Logo/nes-splashlogo.png
 
 # PJB PLEASE

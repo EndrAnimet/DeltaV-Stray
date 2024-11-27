@@ -11,6 +11,7 @@
     DrinkIceBucket: 2
     BarSpoon: 3
     CustomDrinkJug: 2 #to allow for custom drinks in the soda/booze dispensers
+    DrinkInglandSidr: 8
     DrinkAbsintheBottleFull: 2
     DrinkAleBottleFull: 5
     DrinkBeerBottleFull: 5
@@ -18,6 +19,7 @@
     DrinkCognacBottleFull: 4
     DrinkCoconutWaterCarton: 3
     DrinkColaBottleFull: 4
+    DrinkTarragonBottleFull: 3
     DrinkEnergyDrinkCan: 8
     DrinkMilkCarton: 2
     DrinkCreamCarton: 5

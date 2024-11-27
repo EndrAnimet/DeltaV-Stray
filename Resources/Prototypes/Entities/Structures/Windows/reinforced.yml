@@ -5,9 +5,9 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: DeltaV/Structures/Windows/reinforced_window.rsi #Delta V - Resprite windows
+    sprite: NES/Structures/Windows/reinforced_window.rsi #NES14-Changes
   - type: Icon
-    sprite: DeltaV/Structures/Windows/reinforced_window.rsi #Delta V - Resprite windows
+    sprite: NES/Structures/Windows/reinforced_window.rsi #NES14-Changes
   - type: Repairable
     fuelCost: 10
     doAfterDelay: 2
@@ -67,10 +67,10 @@
     - Window
   components:
   - type: Sprite
-    sprite: DeltaV/Structures/Windows/directional.rsi #Delta V - Resprite windows
+    sprite: NES/Structures/Windows/directional.rsi #NES14-Changes #NES14-Changes
     state: reinforced_window
   - type: Icon
-    sprite: DeltaV/Structures/Windows/directional.rsi #Delta V - Resprite windows
+    sprite: NES/Structures/Windows/directional.rsi #NES14-Changes #NES14-Changes
     state: reinforced_window
   - type: Construction
     graph: WindowDirectional
@@ -127,14 +127,14 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: DeltaV/Structures/Windows/reinforced_window_diagonal.rsi #Delta V - Resprite windows
+    sprite: NES/Structures/Windows/reinforced_window_diagonal.rsi #NES14-Changes
     state: state0
   - type: IconSmooth
     mode: Diagonal
-    key: windows
+    key: walls
     base: state
   - type: Icon
-    sprite: DeltaV/Structures/Windows/reinforced_window_diagonal.rsi #Delta V - Resprite windows
+    sprite: NES/Structures/Windows/reinforced_window_diagonal.rsi #NES14-Changes
     state: state0
   - type: Fixtures
     fixtures:

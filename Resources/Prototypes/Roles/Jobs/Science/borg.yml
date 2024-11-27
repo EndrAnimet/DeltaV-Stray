@@ -5,27 +5,18 @@
   description: job-description-station-ai
   playTimeTracker: JobStationAi
   requirements:
-  - !type:RoleTimeRequirement
-    role: JobBorg
-    time: 54000  # 15 hrs
+    - !type:OverallPlaytimeRequirement #DeltaV
+      time: 54000 # 15 h
+    - !type:DepartmentTimeRequirement
+      department: Command
+      time: 18000 # 5 hours
+    - !type:DepartmentTimeRequirement
+      department: Silicon
+      time: 18000  # 5 hrs
   canBeAntag: false
-  setPreference: false # DeltaV - disable AI until its fleshed out
-  whitelisted: true # DeltaV - ai must be whitelisted
+  #setPreference: false # DeltaV - disable AI until its fleshed out
+  #whitelisted: true # DeltaV - ai must be whitelisted
   icon: JobIconStationAi
   supervisors: job-supervisors-rd
   jobEntity: StationAiBrain
-  applyTraits: false
-
-- type: job
-  id: Borg
-  name: job-name-borg
-  description: job-description-borg
-  playTimeTracker: JobBorg
-  requirements:
-    - !type:OverallPlaytimeRequirement
-      time: 144000 # 40 hrs
-  canBeAntag: false
-  icon: JobIconBorg
-  supervisors: job-supervisors-rd
-  jobEntity: PlayerBorgBattery
   applyTraits: false

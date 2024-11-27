@@ -428,6 +428,10 @@ BlueprintFlare: null
 # 2024-10-04
 BaseAdvancedPen: Pen
 
+#NES14-Changes
+RackEngi: Nes14RackEngineer
+RackMed: Nes14RackMedical
+
 # 2024-10-09
 # Removal of separate borg chassis parts, replace them with generic borg parts.
 LeftArmBorgEngineer: LeftArmBorg

@@ -18,6 +18,7 @@
         layer:
           - MachineLayer
   - type: Lathe
+    producingSound: /Audio/NES/Effects/print.ogg
   - type: MaterialStorage
   - type: Destructible
     thresholds:
@@ -364,6 +365,14 @@
       - FauxTileAstroSnow
       - OreBagOfHolding
       - DeviceQuantumSpinInverter
+      # Begin Stray additions
+      - WeaponProtoKineticAcceleratorMining
+      - WeaponProtoKineticAcceleratorAdvancedMining
+      - WeaponProtoKineticAcceleratorSubversiveMining
+      - RCD
+      - RACD
+      - AdavancedRCD
+      # End Stray additions
       # Begin DeltaV additions
       - CoreSilver # Nyanotrasen - Silver Golem core
       - HandheldCrewMonitor
@@ -548,6 +557,7 @@
       - PortableGeneratorPacmanMachineCircuitboard
       - PortableGeneratorSuperPacmanMachineCircuitboard
       - PortableGeneratorJrPacmanMachineCircuitboard
+      - PortableCoalGeneratorMachineCircuitboard
       - WallmountSubstationElectronics
       - PowerCageRechargerCircuitboard
       - EmitterCircuitboard
@@ -674,7 +684,6 @@
   # End Nyano additions
   # DeltaV Start
     - BorgModuleSecurityChase
-    - BorgModuleSecurityEscalate
     - JetpackVoid
   - type: EmagLatheRecipes
     emagDynamicRecipes:
@@ -796,6 +805,7 @@
       - SpeedLoaderMagnum
       - SpeedLoaderMagnumEmpty
       - Stunbaton
+      - Nes14MeleeTaser #NES14-Changes
       - TargetClown
       - TargetHuman
       - TargetSyndicate
@@ -1362,6 +1372,7 @@
         - IngotSilver1
         - MaterialBananium1
         - MaterialDiamond
+        # - Nes14Sheetcopper
     - type: MaterialStorageMagnetPickup # Delta V - Summary: Adds magnet pull from Frontier
       magnetEnabled: True
       range: 0.30 # Delta V - End Magnet Pull
@@ -1394,6 +1405,7 @@
       - IngotSilver1
       - MaterialBananium1
       - MaterialDiamond
+      # - Nes14Sheetcopper
 
 - type: entity
   parent: BaseLathe

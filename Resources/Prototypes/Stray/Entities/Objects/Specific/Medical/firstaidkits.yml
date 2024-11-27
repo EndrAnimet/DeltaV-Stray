@@ -1,0 +1,12 @@
+- type: entity
+  id: MedkitFirstCombatAid
+  name: combat firstaid kit
+  description: For those who want to provide aid quickly and efficiently, even under a hail of bullets and lasers.
+  parent: MedkitCombat
+  components:
+  - type: Sprite
+    sprite: Objects/Specific/Medical/firstaidkits.rsi
+    layers:
+      - state: cfakit
+  - type: Item
+    heldPrefix: cfakit

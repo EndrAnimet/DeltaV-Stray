@@ -1,9 +1,11 @@
 - type: reagentDispenserInventory
   id: SodaDispenserInventory
   inventory:
+  - JuiceAppleJug
   - DrinkCoconutWaterJug
   - DrinkCoffeeJug
   - DrinkColaBottleFull
+  - DrinkTarragonBottleFull
   - DrinkCreamCartonXL
   - DrinkDrGibbJug
   - DrinkEnergyDrinkJug

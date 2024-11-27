@@ -7,23 +7,19 @@
   components:
   - type: Appearance
   - type: Sprite
-    sprite: DeltaV/Objects/Devices/pda.rsi # DeltaV aPDA Resprite File Path
-    scale: 0.75, 0.75 # DeltaV aPDA Resprite PDA Size change, makes it smaller for the full detail.
-    Scale: 0.75, 0.75 # DeltaV aPDA Resprite PDA Size change, makes it smaller for the full detail.
+    sprite: NES/Objects/Devices/pda.rsi
     layers:
     - map: [ "enum.PdaVisualLayers.Base" ]
-    - state: "light_overlay"
-      map: [ "enum.PdaVisualLayers.Flashlight" ]
-      shader: "unshaded"
-      visible: false
     - state: "id_overlay"
       map: [ "enum.PdaVisualLayers.IdLight" ]
       shader: "unshaded"
       visible: false
+    - state: "light_overlay"
+      map: [ "enum.PdaVisualLayers.Flashlight" ]
+      shader: "unshaded"
+      visible: false
   - type: Icon
-    sprite: DeltaV/Objects/Devices/pda.rsi # DeltaV aPDA Resprite File Path
-    scale: 0.75, 0.75 # DeltaV aPDA Resprite PDA Size change, makes it smaller for the full detail.
-    Scale: 0.75, 0.75 # DeltaV aPDA Resprite PDA Size change, makes it smaller for the full detail.
+    sprite: NES/Objects/Devices/pda.rsi
     state: pda
   - type: Pda
     state: pda
@@ -66,6 +62,7 @@
     radius: 1.5
     softness: 5
     autoRot: true
+    color: "#6c8baa"
   - type: Ringer
   - type: DeviceNetwork
     deviceNetId: Wireless
@@ -348,7 +345,7 @@
   description: God's chosen PDA.
   components:
   - type: Sprite # DeltaV - Give Chaplain PDA Epistemics colors
-    sprite: DeltaV/Objects/Devices/pda.rsi # DeltaV aPDA Resprite File Path
+    sprite: DeltaV/Objects/Devices/pdaOld.rsi
     layers:
     - map: [ "enum.PdaVisualLayers.Base" ]
     - state: "light_overlay"
@@ -366,7 +363,7 @@
     borderColor: "#333333"
     accentVColor: "#8900c9" # DeltaV - Give Chaplain PDA Epistemics colors
   - type: Icon
-    sprite: DeltaV/Objects/Devices/pda.rsi # DeltaV aPDA Resprite File Path
+    sprite: DeltaV/Objects/Devices/pdaOld.rsi # DeltaV aPDA Resprite File Path
     state: pda-chaplain
 
 - type: entity
@@ -893,6 +890,18 @@
   name: visitor PDA # DeltaV
   description: If you hold onto this, it can be a fun souvenier when you get to... wherever you're going! # DeltaV
   components:
+  - type: Sprite
+    sprite: DeltaV/Objects/Devices/pdaOld.rsi
+    layers:
+    - map: [ "enum.PdaVisualLayers.Base" ]
+    - state: "light_overlay"
+      map: [ "enum.PdaVisualLayers.Flashlight" ]
+      shader: "unshaded"
+      visible: false
+    - state: "id_overlay"
+      map: [ "enum.PdaVisualLayers.IdLight" ]
+      shader: "unshaded"
+      visible: false
   - type: Pda
     id: VisitorIDCard
     state: pda-visitor # DeltaV - visitor pda sprite

@@ -20,6 +20,7 @@ namespace Content.Client.Input
             common.AddFunction(ContentKeyFunctions.FocusLOOC);
             common.AddFunction(ContentKeyFunctions.FocusOOC);
             common.AddFunction(ContentKeyFunctions.FocusAdminChat);
+            common.AddFunction(ContentKeyFunctions.FocusMappingChat);
             common.AddFunction(ContentKeyFunctions.FocusConsoleChat);
             common.AddFunction(ContentKeyFunctions.FocusDeadChat);
             common.AddFunction(ContentKeyFunctions.CycleChatChannelForward);
@@ -84,6 +85,7 @@ namespace Content.Client.Input
             human.AddFunction(ContentKeyFunctions.Arcade1);
             human.AddFunction(ContentKeyFunctions.Arcade2);
             human.AddFunction(ContentKeyFunctions.Arcade3);
+            human.AddFunction(ContentKeyFunctions.ToggleCrawling); // NES14-Changes, crawling
 
             // actions should be common (for ghosts, mobs, etc)
             common.AddFunction(ContentKeyFunctions.OpenActionsMenu);

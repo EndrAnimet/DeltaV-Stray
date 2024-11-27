@@ -1,0 +1,9 @@
+- type: flavor
+  id: sawdustsoup
+  flavorType: Complex
+  description: flavor-complex-frostpunk
+  
+- type: flavor
+  id: flavor-tarragon
+  flavorType: Complex
+  description: flavor-tarragon

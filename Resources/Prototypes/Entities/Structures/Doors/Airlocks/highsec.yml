@@ -9,7 +9,7 @@
   - type: StationAiWhitelist
   - type: InteractionOutline
   - type: Sprite
-    sprite: DeltaV/Structures/Doors/Airlocks/highsec/highsec.rsi #Delta V - Resprite Doors
+    sprite: Structures/Doors/Airlocks/highsec/highsec.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -50,15 +50,16 @@
       types:
         Blunt: 50
     openSound:
-      path: /Audio/Machines/airlock_open.ogg
+      path: /Audio/NES/Doors/Heavy_open.ogg #NES14-Changes
     closeSound:
-      path: /Audio/Machines/airlock_close.ogg
+      path: /Audio/NES/Doors/Heavy_close.ogg
     denySound:
       path: /Audio/Machines/airlock_deny.ogg
   - type: Weldable
     fuel: 10
     time: 10
   - type: Airlock
+    openUnlitVisible: true # Corvax-Resprite-Airlocks
   - type: NavMapDoor
   - type: DoorBolt
   - type: AccessReader

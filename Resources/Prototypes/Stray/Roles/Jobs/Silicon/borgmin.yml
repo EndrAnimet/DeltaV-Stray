@@ -1,0 +1,13 @@
+- type: job
+  id: Borgmin
+  name: "борг шахтерский"
+  setPreference: false
+  description: job-description-borg
+  playTimeTracker: JobBorgmin
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 999999
+  canBeAntag: false
+  icon: JobIconBorgShaftMiner
+  supervisors: job-supervisors-rd
+  startingGear: RobotGear # for char preview only

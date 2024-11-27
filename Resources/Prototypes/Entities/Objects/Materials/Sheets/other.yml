@@ -5,9 +5,9 @@
   description: A sheet of material, used often on the station in various applications.
   components:
   - type: Sprite
-    sprite: Objects/Materials/Sheets/other.rsi
+    sprite: NES/Objects/Materials/Sheets/other.rsi #NES14-Changes
   - type: Item
-    sprite: Objects/Materials/Sheets/other.rsi
+    sprite: NES/Objects/Materials/Sheets/other.rsi #NES14-Changes
     size: Normal
   - type: Tag
     tags:
@@ -85,16 +85,18 @@
       Plasma: 100
   - type: Stack
     stackType: Plasma
+# Corvax-Resprite-Start
     baseLayer: base
     layerStates:
     - plasma
     - plasma_2
     - plasma_3
   - type: Sprite
-    state: plasma_3
+    state: plasma
     layers:
     - state: plasma_3
       map: ["base"]
+# Corvax-Resprite-End
   - type: Item
     heldPrefix: plasma
   - type: Appearance

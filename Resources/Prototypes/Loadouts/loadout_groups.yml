@@ -17,16 +17,15 @@
   - CigPackBlack
   - CigarCase
   - CigarGold
-  - ClothingNeckLGBTPin
-  - ClothingNeckAromanticPin
-  - ClothingNeckAsexualPin
-  - ClothingNeckBisexualPin
-  - ClothingNeckGayPin
-  - ClothingNeckIntersexPin
-  - ClothingNeckLesbianPin
-  - ClothingNeckNonBinaryPin
-  - ClothingNeckPansexualPin
-  - ClothingNeckTransPin
+#  - ClothingNeckLGBTPin
+#  - ClothingNeckAromanticPin
+#  - ClothingNeckAsexualPin
+#  - ClothingNeckBisexualPin
+#  - ClothingNeckIntersexPin
+#  - ClothingNeckLesbianPin
+#  - ClothingNeckNonBinaryPin
+#  - ClothingNeckPansexualPin
+#  - ClothingNeckTransPin
   - ClothingNeckAutismPin
   - ClothingNeckGoldAutismPin
   - TowelColorBlack
@@ -68,6 +67,8 @@
   hidden: true
   loadouts:
   - LoadoutTankHarness
+  - LoadoutEnvirosuit
+
 
 - type: loadoutGroup
   id: Survival
@@ -78,6 +79,9 @@
   - EmergencyNitrogen
   - EmergencyOxygen
   - LoadoutSpeciesVoxNitrogen
+  - LoadoutSpeciesEVAPlasma
+  - EmergencyPlasma
+  - EmergencyNoGas
 
 - type: loadoutGroup
   id: GroupEVATank
@@ -86,6 +90,7 @@
   loadouts:
   - LoadoutSpeciesEVANitrogen
   - LoadoutSpeciesEVAOxygen
+  - LoadoutSpeciesEVAPlasma
 
 - type: loadoutGroup
   id: GroupPocketTankDouble
@@ -145,6 +150,7 @@
   loadouts:
   - CaptainOuterClothing
   - CaptainWintercoat
+  - ClothingOuterCoatCaptain # Stray
 
 - type: loadoutGroup # DeltaV
   id: CaptainShoes
@@ -225,6 +231,10 @@
   loadouts:
   - GreyJumpsuit
   - GreyJumpskirt
+  - WhiteJumpsuit
+  - WhiteJumpskirt
+  - BlackJumpsuit
+  - BlackJumpskirt
   - MioSkirt # Start DeltaV Changes
   - NaotaHoodie
   - CasualBlueSkirt
@@ -249,6 +259,8 @@
   minLimit: 0
   loadouts:
   - PassengerGloves
+  - PassengerGlovesWhite
+  - PassengerGlovesBlack
 
 - type: loadoutGroup
   id: CommonBackpack
@@ -271,13 +283,22 @@
   minLimit: 0
   loadouts:
   - PassengerWintercoat
+  - PassengerWintercoatLong # Stray addition
 
 - type: loadoutGroup
   id: PassengerShoes
   name: loadout-group-passenger-shoes
   loadouts:
   - BlackShoes
+  - WhiteShoes
   - WinterBoots
+
+- type: loadoutGroup
+  id: PassengerHead
+  name: loadout-group-passenger-head
+  minLimit: 0
+  loadouts:
+  - PassengerHead
 
 - type: loadoutGroup
   id: BartenderHead
@@ -403,6 +424,7 @@
   - ChaplainPlagueHat
   - ChaplainWitchHat
   - ChaplainWitchHatAlt
+  - CrusaderHelmet
 
 - type: loadoutGroup
   id: ChaplainMask
@@ -410,6 +432,13 @@
   minLimit: 0
   loadouts:
   - ChaplainMask
+
+- type: loadoutGroup
+  id: ChaplainBelt
+  name: loadout-group-chaplain-belt
+  minLimit: 0
+  loadouts:
+  - HolySheath
 
 - type: loadoutGroup
   id: ChaplainJumpsuit
@@ -429,6 +458,7 @@
   - ChaplainNunRobe
   - ChaplainBlackHoodie
   - ChaplainHoodie
+  - CrusaderdArmor
 
 - type: loadoutGroup
   id: ChaplainNeck
@@ -570,6 +600,9 @@
   - EmergencyNitrogenClown
   - EmergencyOxygenClown
   - LoadoutSpeciesVoxNitrogen
+  - LoadoutSpeciesEVAPlasma
+  - EmergencyPlasmaClown
+  - EmergencyNoGasClown
 
 - type: loadoutGroup
   id: MimeHead
@@ -643,6 +676,9 @@
   - EmergencyNitrogenMime
   - EmergencyOxygenMime
   - LoadoutSpeciesVoxNitrogen
+  - LoadoutSpeciesEVAPlasma
+  - EmergencyPlasmaMime
+  - EmergencyNoGasMime
 
 - type: loadoutGroup
   id: MusicianJumpsuit
@@ -755,6 +791,7 @@
   id: CargoTechnicianJumpsuit
   name: loadout-group-cargo-technician-jumpsuit
   loadouts:
+  - CargoLong
   - CargoTechnicianJumpsuit
   - CargoTechnicianJumpskirt
 
@@ -787,6 +824,7 @@
   loadouts:
   - SalvageCloak
   - ScarfBrown
+  - SalvageLittleOreBag
 
 - type: loadoutGroup
   id: SalvageSpecialistBackpack
@@ -916,8 +954,8 @@
   loadouts:
   - StationEngineerPDA
   - SeniorEngineerPDA
-  - ElectricianPDA # DeltaV
-  - MechanicPDA # DeltaV
+  # - ElectricianPDA # DeltaV
+  # - MechanicPDA # DeltaV
 
 - type: loadoutGroup # DeltaV
   id: AtmosphericTechnicianNeck
@@ -966,6 +1004,9 @@
   - EmergencyNitrogenExtended
   - EmergencyOxygenExtended
   - LoadoutSpeciesVoxNitrogen
+  - LoadoutSpeciesEVAPlasma
+  - EmergencyPlasmaExtended
+  - EmergencyNoGasExtended
 
 # Science
 - type: loadoutGroup
@@ -1016,8 +1057,6 @@
   name: loadout-group-scientist-head
   minLimit: 0
   loadouts:
-  - RoboticistCap
-  - SkullBandana
   - ScientificBeret
 
 - type: loadoutGroup
@@ -1034,8 +1073,6 @@
   loadouts:
   - ScientistJumpsuit
   - ScientistJumpskirt
-  - RoboticistJumpsuit
-  - RoboticistJumpskirt
   - SeniorResearcherJumpsuit
   - SeniorResearcherJumpskirt
 
@@ -1065,7 +1102,6 @@
   loadouts:
   - LatexGloves
   - PurpleGloves
-  - RobohandsGloves
 
 - type: loadoutGroup
   id: ScientistShoes
@@ -1080,9 +1116,8 @@
   loadouts:
   - ScientistPDA
   - SeniorResearcherPDA
-  - LabTechPDA # DeltaV
-  - XenoarchPDA # DeltaV
-  - RoboticistPDA # DeltaV
+  # - LabTechPDA # DeltaV
+  # - XenoarchPDA # DeltaV
 
 - type: loadoutGroup
   id: ResearchAssistantJumpsuit
@@ -1099,6 +1134,7 @@
   loadouts:
   - HeadofSecurityHead
   - HeadofSecurityBeret
+  - ClothingHeadHatCapHoS # Stray
 
 - type: loadoutGroup
   id: HeadofSecurityJumpsuit
@@ -1125,6 +1161,7 @@
   - HeadofSecurityCloak
   - HeadofSecurityMantle
   - ScarfRed # DeltaV
+  - ClothingNeckMantleHOSShoulder # Stray
 
 - type: loadoutGroup
   id: HeadofSecurityOuterClothing
@@ -1152,6 +1189,7 @@
   loadouts:
   - WardenHead
   - WardenBeret
+  - ClothingHeadHatCapWardenAlt
 
 - type: loadoutGroup
   id: WardenJumpsuit
@@ -1170,6 +1208,9 @@
   id: WardenOuterClothing
   name: loadout-group-warden-outerclothing
   loadouts:
+  - WardenCoat
+  - WardenArmoredWinterCoat
+  - ClothingOuterCoatWardenAlt
 #  - WardenCoat # DeltaV - removed for incongruence
 #  - WardenArmoredWinterCoat # DeltaV - removed for incongruence
   - PlateCarrier # DeltaV
@@ -1254,8 +1295,8 @@
   name: loadout-group-detective-head
   minLimit: 0
   loadouts:
-#  - DetectiveFedora # DeltaV - removed for incongruence
-#  - DetectiveFedoraGrey # DeltaV - removed for incongruence
+  - DetectiveFedora # DeltaV - removed for incongruence
+  - DetectiveFedoraGrey # DeltaV - removed for incongruence
   - DetBeret # DeltaV
 
 - type: loadoutGroup
@@ -1285,10 +1326,11 @@
   minLimit: 0
   loadouts:
 #  - DetectiveArmorVest # DeltaV - removed for incongruence
-#  - DetectiveCoat # DeltaV - removed for incongruence
+  - DetectiveCoat # DeltaV - removed for incongruence
   - StasecWinterCoatDet # DeltaV
   - PlateCarrier # DeltaV
   - DuraVest # DeltaV
+  - CoatDetectiveDark # Stray
 
 - type: loadoutGroup
   id: SecurityCadetJumpsuit
@@ -1306,6 +1348,9 @@
   - EmergencyNitrogenSecurity
   - EmergencyOxygenSecurity
   - LoadoutSpeciesVoxNitrogen
+  - LoadoutSpeciesEVAPlasma
+  - EmergencyPlasmaSecurity
+  - EmergencyNoGasSecurity
 
 - type: loadoutGroup
   id: SecurityStar
@@ -1421,7 +1466,7 @@
   loadouts:
   - MedicalDoctorPDA
   - SeniorPhysicianPDA
-  - ClinicianPDA # DeltaV
+  # - ClinicianPDA # DeltaV
 
 - type: loadoutGroup
   id: MedicalGloves
@@ -1540,6 +1585,9 @@
   - EmergencyNitrogenMedical
   - EmergencyOxygenMedical
   - LoadoutSpeciesVoxNitrogen
+  - LoadoutSpeciesEVAPlasma
+  - EmergencyPlasmaMedical
+  - EmergencyNoGasMedical
 
 # Wildcards
 - type: loadoutGroup
@@ -1582,6 +1630,9 @@
   - EmergencyNitrogenSyndicate
   - EmergencyOxygenSyndicate
   - LoadoutSpeciesVoxNitrogen
+  - LoadoutSpeciesEVAPlasma
+  - EmergencyPlasmaSyndicate
+  - EmergencyNoGasSyndicate
 
 - type: loadoutGroup
   id: GroupSpeciesBreathTool
@@ -1591,6 +1642,7 @@
   hidden: true
   loadouts:
   - LoadoutSpeciesBreathTool
+  - LoadoutSpeciesBreathToolPlasma
 
 - type: loadoutGroup
   id: GroupSpeciesBreathToolMedical
@@ -1600,6 +1652,7 @@
   hidden: true
   loadouts:
   - LoadoutSpeciesBreathToolMedical
+  - LoadoutSpeciesBreathToolMedicalPlasma
 
 - type: loadoutGroup
   id: GroupSpeciesBreathToolSecurity
@@ -1609,3 +1662,4 @@
   hidden: true
   loadouts:
   - LoadoutSpeciesBreathToolSecurity
+  - LoadoutSpeciesBreathToolSecurityPlasma

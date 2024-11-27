@@ -126,6 +126,9 @@ binds:
 - function: FocusAdminChatWindow
   type: State
   key: RBracket
+- function: FocusMappingChatWindow
+  type: State
+  key: Pause
 - function: FocusDeadChatWindow
   type: State
   key: Backslash
@@ -584,3 +587,6 @@ binds:
   type: State
   key: MouseRight
   canFocus: true
+- function: ToggleCrawling #NES14-Changes, Crawling
+  type: State
+  key: R

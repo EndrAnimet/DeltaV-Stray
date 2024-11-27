@@ -14,7 +14,7 @@
       sound:
         path: /Audio/Ambience/Objects/periodic_beep.ogg
     - type: Sprite
-      sprite: Structures/Power/smes.rsi
+      sprite: NES/Structures/Power/smes.rsi #NES14-Changes
       snapCardinals: true
       layers:
         - state: smes
@@ -25,6 +25,7 @@
         - map: ["enum.SmesVisualLayers.Input"]
           state: "smes-oc0"
           shader: unshaded
+          visible: false
         - map: ["enum.SmesVisualLayers.Output"]
           state: "smes-op1"
           shader: unshaded
@@ -48,7 +49,7 @@
       sourceNode: input
       loadNode: output
       collectionName: smes
-      sprite: Structures/Power/smes.rsi
+      sprite: NES/Structures/Power/smes.rsi #NES14-Changes
       state: static
     - type: BatteryDischarger
       voltage: High
@@ -57,15 +58,15 @@
       voltage: High
       node: input
     - type: PowerNetworkBattery
-      maxSupply: 150000
-      maxChargeRate: 5000
-      supplyRampTolerance: 5000
-      supplyRampRate: 1000
-    - type: PointLight
-      radius: 1.5
-      energy: 1.6
-      color: "#c9c042"
-      castShadows: false
+      maxSupply: 1500000
+      maxChargeRate: 50000
+      supplyRampTolerance: 50000
+      supplyRampRate: 10000
+    # - type: PointLight
+    #   radius: 1.5
+    #   energy: 1.6
+    #   color: "#c9c042"
+    #   castShadows: false
     - type: WiresPanel
     - type: Machine
       board: SMESMachineCircuitboard
