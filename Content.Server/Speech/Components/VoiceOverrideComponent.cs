@@ -1,3 +1,4 @@
+using Content.Shared.ADT.SpeechBarks;
 using Content.Shared.Speech;
 using Robust.Shared.Prototypes;
 
@@ -32,4 +33,9 @@ public sealed partial class VoiceOverrideComponent : Component
     /// </summary>
     [DataField]
     public bool Enabled = true;
+
+    // ADT start
+    [DataField]
+    public BarkData? Bark;
+    // ADT end
 }

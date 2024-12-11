@@ -1,3 +1,4 @@
+using Content.Shared.ADT.SpeechBarks;
 using Content.Shared.Humanoid.Markings;
 using Content.Shared.Humanoid.Prototypes;
 using Content.Shared.Preferences; // DeltaV
@@ -93,9 +94,15 @@ public sealed partial class HumanoidAppearanceComponent : Component
 
     /// <summary>
     /// DeltaV - let paradox anomaly be cloned
+    // ADT Barks start
+    /// <summary>
+    ///     Current voice. Used for correct cloning.
     /// </summary>
     [ViewVariables]
     public HumanoidCharacterProfile? LastProfileLoaded;
+    [DataField("bark")]
+    public BarkData Bark = new();
+    // ADT Barks end
 }
 
 [DataDefinition]

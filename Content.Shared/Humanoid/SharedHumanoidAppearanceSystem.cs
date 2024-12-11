@@ -17,6 +17,7 @@ using Robust.Shared.Serialization.Manager;
 using Robust.Shared.Serialization.Markdown;
 using Robust.Shared.Utility;
 using YamlDotNet.RepresentationModel;
+using Content.Shared.ADT.SpeechBarks;
 
 namespace Content.Shared.Humanoid;
 
@@ -39,6 +40,7 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
 
     [ValidatePrototypeId<SpeciesPrototype>]
     public const string DefaultSpecies = "Human";
+    public const string DefaultBark = "Human1";
 
     public override void Initialize()
     {
@@ -72,7 +74,6 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
         /*
          * Add custom handling here for forks / version numbers if you care.
          */
-
         var profile = export.Profile;
         var collection = IoCManager.Instance;
         profile.EnsureValid(session, collection!);
@@ -378,7 +379,7 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
         }
 
         EnsureDefaultMarkings(uid, humanoid);
-
+        SetBarkData(uid, profile.Bark, humanoid); // ADT Barks
         humanoid.Gender = profile.Gender;
         if (TryComp<GrammarComponent>(uid, out var grammar))
         {
@@ -390,6 +391,9 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
         humanoid.LastProfileLoaded = profile; // DeltaV - let paradox anomaly be cloned
 
         Dirty(uid, humanoid);
+
+        ///var ev = new HumanoidProfileLoadedEvent(profile);   // ADT Profile loaded event
+        ///RaiseLocalEvent(uid, ref ev);   // ADT Profile loaded event
     }
 
     /// <summary>
@@ -458,6 +462,18 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
         if (sync)
             Dirty(uid, humanoid);
     }
+
+    // ADT Barks start
+    public void SetBarkData(EntityUid uid, BarkData data, HumanoidAppearanceComponent humanoid)
+    {
+        if (!TryComp<SpeechBarksComponent>(uid, out var comp))
+            return;
+
+        comp.Data = data;
+        comp.Data.Sound = _proto.Index(comp.Data.Proto).Sound;
+        humanoid.Bark = data;
+    }
+    // ADT Barks end
 
     /// <summary>
     /// Takes ID of the species prototype, returns UI-friendly name of the species.
