@@ -33513,6 +33513,13 @@ entities:
       parent: 2
 - proto: filingCabinetRandom
   entities:
+  - uid: 4429
+    components:
+    - type: Transform
+      pos: -8.5,36.5
+      parent: 2
+- proto: filingCabinetRandom
+  entities:
   - uid: 4946
     components:
     - type: Transform
@@ -57266,7 +57273,7 @@ entities:
         Average station required power in kilowatts: 200?
 
 
-        subtracted by 
+        subtracted by
 
         60 kW (2 plasma generators at 30 kW each)
 
