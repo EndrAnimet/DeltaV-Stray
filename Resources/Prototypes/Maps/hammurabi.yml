@@ -73,13 +73,8 @@
             ForensicMantis: [ 1, 1 ]
             ResearchAssistant: [ 2, 3 ]
             ResearchDirector: [ 1, 1 ]
-<<<<<<< HEAD
             Scientist: [ 4, 6 ]
             Roboticist: [ 1, 1 ]
-=======
-            Roboticist: [ 1, 2 ]
-            Scientist: [ 4, 5 ]
->>>>>>> 49d67314dba867c001b38e45073381ad66851c39
           #supply
             CargoTechnician: [ 2, 4 ]
             Courier: [ 2, 3 ]
