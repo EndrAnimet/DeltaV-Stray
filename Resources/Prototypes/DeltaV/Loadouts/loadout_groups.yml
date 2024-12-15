@@ -349,9 +349,6 @@
   loadouts:
   - ProsecutorOvercoat
 
-# Epistemics
-## Roboticist
-
 # PDAs
 - type: loadoutGroup
   id: PassengerPDADelta
@@ -419,7 +416,6 @@
   - JesterPDA
   - FoolPDA
 
-#robopda
 # Misc
 - type: loadoutGroup
   id: Scarfs
