@@ -29,7 +29,7 @@
     delay: 1.5
 
 - type: entity
-  name: руцка
+  name: ручка
   parent: BasePen
   id: Pen
   components:
