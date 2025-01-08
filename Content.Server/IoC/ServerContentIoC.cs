@@ -71,7 +71,7 @@ namespace Content.Server.IoC
             IoCManager.Register<ISharedPlaytimeManager, PlayTimeTrackingManager>();
             IoCManager.Register<ServerApi>();
             IoCManager.Register<JobWhitelistManager>();
-            IoCManager.Register<PlayerRateLimitManager>()
+            IoCManager.Register<PlayerRateLimitManager>();
             IoCManager.Register<SharedPlayerRateLimitManager, PlayerRateLimitManager>();
             IoCManager.Register<MappingManager>();
             IoCManager.Register<FeedbackPopupManager>(); // DeltaV
