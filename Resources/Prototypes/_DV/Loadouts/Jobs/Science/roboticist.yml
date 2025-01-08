@@ -31,9 +31,3 @@
   id: RoboticsWinterBoots
   equipment:
     shoes: ClothingShoesBootsWinterRobo
-
-# PDA
-- type: loadout
-  id: RoboticistPDA
-  equipment:
-    id: RoboticistPDA

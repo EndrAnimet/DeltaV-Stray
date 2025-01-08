@@ -1001,7 +1001,6 @@
       - WeaponColdCannon
       - WeaponBeamCannon
       # End DeltaV additions
-<<<<<<< HEAD
       - WeaponMechCombatImmolationGun
       - WeaponMechCombatSolarisLaser
       - WeaponMechCombatFiredartLaser
@@ -1011,10 +1010,8 @@
       - WeaponMechCombatDisabler
       - WeaponMechCombatFlashbangLauncher
       - WeaponMechCombatMissileRack8
-=======
       - SecurityCyberneticEyes # Shitmed Change
       - MedicalCyberneticEyes # Shitmed Change
->>>>>>> 4fdafdc1b8ab67bc9e9873db5889c5af2b677d49
   - type: MaterialStorage
     whitelist:
       tags:
