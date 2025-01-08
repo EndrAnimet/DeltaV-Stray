@@ -54,9 +54,9 @@
     interactFailureString: petting-failure-spaceferret
     interactSuccessSpawn: EffectHearts
     interactSuccessSound:
-      path: /Audio/DeltaV/Animals/wawa_chillin.ogg
+      path: /Audio/_DV/Animals/wawa_chillin.ogg
     interactFailureSound:
-      path: /Audio/DeltaV/Animals/wawa_chatter.ogg
+      path: /Audio/_DV/Animals/wawa_chatter.ogg
   - type: MovementSpeedModifier
     baseWalkSpeed: 5 # nyoom
     baseSprintSpeed: 7 # NYOOOOOM
