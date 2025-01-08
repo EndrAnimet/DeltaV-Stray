@@ -137,15 +137,10 @@
   - SecurityOfficer
   - Detective
   - Warden
-  - PrisonGuard # Nyanotrasen - PrisonGuard, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Security/prisonguard.yml
-<<<<<<< HEAD
+  - PrisonGuard # Nyanotrasen
   - Brigmedic # DeltaV - Brigmedic, see Resources/Prototypes/DeltaV/Roles/Jobs/Security/brigmedic.yml
   - Pilot # Corvax
   - Borgsec
-=======
-  - Brigmedic # DeltaV - Brigmedic, see Resources/Prototypes/_DV/Roles/Jobs/Security/brigmedic.yml
-  - SecurityBorg # Delta-V : Security Borg
->>>>>>> 4fdafdc1b8ab67bc9e9873db5889c5af2b677d49
 
 - type: department
   id: Epistemics # DeltaV - Epistemics Department replacing Science
