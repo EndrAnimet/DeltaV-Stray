@@ -14761,6 +14761,7 @@ entities:
       color: '#0000FFFF'
   - uid: 736
     components:
+    - type: Transform
       rot: -1.5707963267948966 rad
       pos: 7.5,-23.5
       parent: 2
