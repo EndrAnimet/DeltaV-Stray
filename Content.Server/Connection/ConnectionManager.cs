@@ -8,7 +8,7 @@ using Content.Server.Database;
 using Content.Server.GameTicking;
 using Content.Server.Preferences.Managers;
 using Content.Shared.CCVar;
-// using Content.Shared.DeltaV.CCVars;
+using Content.Shared._DV.CCVars;
 using Content.Server.DeltaV.ProxyDetection;
 using Content.Shared.GameTicking;
 using Content.Shared.Players.PlayTimeTracking;

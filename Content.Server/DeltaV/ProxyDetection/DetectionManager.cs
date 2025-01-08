@@ -6,7 +6,7 @@ using Content.Server.Administration.Managers;
 using Content.Server.Database;
 using Content.Server.DeltaV.ProxyDetection.NeutrinoApi;
 using Content.Shared.Database;
-// using Content.Shared.DeltaV.CCVars;
+using Content.Shared._DV.CCVars;
 using Robust.Server.Player;
 using Robust.Shared.Configuration;
 using Robust.Shared.Network;
