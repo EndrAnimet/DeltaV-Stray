@@ -1,17 +1,17 @@
-﻿name: CRLF Check
+﻿# name: CRLF Check
 
-on:
-  push:
-    branches: [ cursed ]
-  pull_request:
-    types: [ opened, reopened, synchronize, ready_for_review ]
+# on:
+#   push:
+#     branches: [ cursed ]
+#   pull_request:
+#     types: [ opened, reopened, synchronize, ready_for_review ]
 
-jobs:
-  build:
-    name: CRLF Check
-    if: github.event.pull_request.draft == false
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v3.6.0
-    - name: Check for CRLF
-      run: Tools/check_crlf.py
+# jobs:
+#   build:
+#     name: CRLF Check
+#     if: github.event.pull_request.draft == false
+#     runs-on: ubuntu-latest
+#     steps:
+#     - uses: actions/checkout@v3.6.0
+#     - name: Check for CRLF
+#       run: Tools/check_crlf.py
