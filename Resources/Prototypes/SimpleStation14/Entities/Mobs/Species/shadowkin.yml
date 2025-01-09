@@ -83,3 +83,10 @@
     alternateState: Standing
   - type: PsionicBonusChance
     multiplier: 3
+  - type: Respirator
+    damage:
+      types:
+        Asphyxiation: 0
+    damageRecovery:
+      types:
+        Asphyxiation: 0
