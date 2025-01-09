@@ -12,9 +12,6 @@
     - type: Sprite
       sprite: NES/Structures/Decoration/chairs.rsi
       state: log-bench
-    - type: Construction
-      graph: Seat
-      node: logbench
     - type: Destructible
       thresholds:
       - trigger:
@@ -46,9 +43,6 @@
     - type: Physics
       bodyType: Static
     - type: Anchorable
-    - type: Construction
-      graph: Seat
-      node: seatwooden
     - type: Rotatable
     - type: Destructible
       thresholds:

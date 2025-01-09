@@ -32,3 +32,6 @@
   #storage:
     #back:
     #- Stuff
+  storage: # DeltaV: Add mining voucher
+    back:
+    - MiningVoucher
