@@ -12579,14 +12579,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -29.5,-15.5
       parent: 2
-- proto: BenchSofaCorpLeft
-  entities:
-  - uid: 14376
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -29.5,-13.5
-      parent: 2
 - proto: BenchSofaCorpMiddle
   entities:
   - uid: 13925

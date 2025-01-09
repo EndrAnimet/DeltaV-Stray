@@ -542,8 +542,8 @@
     borderColor: "#5b97bc"
     accentHColor: "#ffffff"
     accentVColor: "#ffffff"
-  - type: Icon
-    state: pda-surgeon
+#  - type: Icon
+#    state: pda-surgeon
 
 # Atmospherics Technician
 
