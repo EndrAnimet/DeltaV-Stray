@@ -1,7 +1,7 @@
 - type: guideEntry
   id: DeltaVRuleset
   name: guide-entry-deltav-Rules
-  text: "/ServerInfo/Guidebook/DeltaV/Rules/DeltaVRuleset.xml"
+  text: "/ServerInfo/Guidebook/_DV/Rules/DeltaVRuleset.xml"
   priority: -2
   ruleEntry: true
   children:
