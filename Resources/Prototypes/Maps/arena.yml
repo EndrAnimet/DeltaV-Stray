@@ -38,11 +38,12 @@
           #medical
             Chemist: [ 2, 2 ]
             ChiefMedicalOfficer: [ 1, 1 ]
-            MedicalDoctor: [ 3, 5 ]
+            MedicalDoctor: [ 3, 4 ]
             MedicalIntern: [ 2, 3 ]
             Paramedic: [ 1, 2 ]
             Slugcat: [ 1, 1 ]
             Psychologist: [ 1, 1 ]
+            Surgeon: [ 1, 1 ]
           #security
             Brigmedic: [ 1, 1 ]
             Detective: [ 1, 1 ]

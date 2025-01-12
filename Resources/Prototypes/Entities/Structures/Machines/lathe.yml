@@ -1011,7 +1011,6 @@
       - WeaponMechCombatFlashbangLauncher
       - WeaponMechCombatMissileRack8
       - SecurityCyberneticEyes # Shitmed Change
-      - MedicalCyberneticEyes # Shitmed Change
   - type: MaterialStorage
     whitelist:
       tags:
@@ -1136,6 +1135,7 @@
       - WhiteCane
       - AACTablet # DeltaV
       - BoneGel # Shitmed Change
+      - TankHarness # DeltaV
     dynamicRecipes:
       # Begin DeltaV additions
       - LauncherSyringe
@@ -1347,6 +1347,9 @@
       - ClothingNeckScarfStripedOrange
       - ClothingNeckScarfStripedBlack
       - ClothingNeckScarfStripedPurple
+      # DeltaV Ponchos
+      - ClothingNeckCWPSec
+      - ClothingNeckCWPArctic
       # Carpets
       - Carpet
       - CarpetBlack
